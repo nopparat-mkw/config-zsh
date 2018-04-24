@@ -58,3 +58,8 @@ pr() {
 pg() {
   cd "$HOME/project/$1" || return
 }
+
+alias cls="clear"
+alias ys="yarn start"
+alias yi="yarn"
+alias mvn_dev="mvn spring-boot:run -Drun.arguments='spring.profiles.active=develop'"
